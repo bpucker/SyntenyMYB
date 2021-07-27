@@ -16,7 +16,7 @@ A FASTA file of the CDS or peptide sequences can be used to identify the corresp
 
 
 
-## 2) Run synteny identificaiton via JCVI ##
+## 2) Run synteny identification via JCVI ##
 All file locations can be specified via config file.
 
 
