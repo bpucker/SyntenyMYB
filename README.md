@@ -4,7 +4,8 @@ synteny analysis of MYBs
 ## 1) Prepare data sets ##
 
 ### a) Retrieve GFF3 file and matching CDS FASTA file ###
-Extraction of CDS data set based on GFF3 and genomic FASTA file via get_pep_from_gff.py.
+Extraction of CDS data set based on GFF3 and genomic FASTA file via get_pep_from_gff.py (translation step can be skipped).
+
 Adjust transcript IDs if data sets are retrieved from the NCBI.
 
 ### b) Retrieve annotated MYBs ###
