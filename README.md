@@ -80,15 +80,15 @@ option2:
 
 `--gff` specifies a GFF3 file.
 
-`--cds` specifies a GFF3 file.
+`--cds` specifies a FASTA file containing the coding sequences of a species. This file needs to match the GFF3 file for the JCVI analysis of synteny.
 
-`--feature` specifies a GFF3 file.
+`--feature` specifies the feature tag that is used in the GFF3 file to indicate a mRNA entry. This is usually "mRNA" or "transcript".
 
-`--ID` specifies a GFF3 file.
+`--ID` specifies the tag that is used to indicate the ID field in the last column of a GFF3 file.
 
-`--specs` specifies a GFF3 file.
+`--specs` specifies a the names of all the species analysed in one batch.
 
-`--MYBs` specifies a GFF3 file.
+`--MYBs` specifies the MYB ID containing text files. These IDs need to match the IDs in the CDS file.
 
 
 
