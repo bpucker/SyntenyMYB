@@ -58,7 +58,38 @@ optional:
 ## 2) Run synteny identification via JCVI ##
 All file locations can be specified via config file.
 
-myb_syn1.py
+```
+python3 myb_syn1.py
+option1:
+--config
+--out
+
+option2:
+--gff <COMMA_SEPARATED_LIST_OF_GFF_FILES>
+--cds <COMMA_SEPARATED_LIST_OF_CDS_FILES>
+--feature <COMMA_SEPARATED_LIST_OF_FEATURE_NAMES>(mRNA|transcript)
+--ID <COMMA_SEPARATED_LIST_OF_ID_NAMES>[ID]
+--specs <COMMA_SEPARATED_LIST_OF_SPECIES_NAMES>
+--MYBs <COMMA_SEPARATED_LIST_OF_ID_FILES>
+--out <FULL_PATH_TO_OUTPUT_DIRECTORY>
+```
+
+`--config` specifies a config file containing paths to all files and also information about all other options. Information of each species is given in one row.
+
+`--out` specifies the output folder. This folder will be created if it does not exist already.
+
+`--gff` specifies a GFF3 file.
+
+`--cds` specifies a GFF3 file.
+
+`--feature` specifies a GFF3 file.
+
+`--ID` specifies a GFF3 file.
+
+`--specs` specifies a GFF3 file.
+
+`--MYBs` specifies a GFF3 file.
+
 
 
 ## 3) Downstream analyses ##
